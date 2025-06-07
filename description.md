@@ -4,12 +4,12 @@ Help users stay focused with a minimal, floating on-screen timer that also block
 
 💡 Features Breakdown
 Feature	Details
-🕓 Timer	Pomodoro (25/5) + manual option (custom mins)
+🕓 Timer	Pomodoro (25/5) + manual option (custom mins) *pomodoro done, custom minutes missing*
 🔒 Site Blocker	List of websites to block; optional feature (basic input, regex match)
 💬 Floating Bubble	Fixed-position circle (bottom-right); draggable anywhere on screen
-⏯️ Controls	Start / Pause / Reset
+⏯️ Controls	Start / Pause / Reset *done*
 💾 Persistent Settings	Save timer type, custom time, site list, and timer state in localStorage
-🔊 Optional Alert	Play sound when timer ends (optional, low effort with HTML5 audio)
+🔊 Alert	Play sound when timer ends 
 
 🛠 Tech Stack
 Vanilla JS
@@ -82,3 +82,25 @@ Circle bubble
 Button styling
 
 Settings modal or floating panel
+
+✅ Final Bubble Layout
+🟢 Top
+
+Small session type label (e.g. “Work”, “Break”) *done*
+
+Settings icon (top right corner)
+
+🔵 Center
+
+Big timer display (25:00) *done*
+
+🟠 Below Timer
+
+Progress dots (e.g. Pomodoro session count)
+
+🔴 Bottom
+
+Start / Pause / Reset buttons *done*
+
+Mute toggle (bottom left or bottom right corner)
+

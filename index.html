@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <!-- since the bubble should be on top and always visible it should be above main-->
+  <body>
+  <div id="focus-bubble">
+    <div id="bubble-content">
+      <div id="settingsIcon">⚙️</div>
+      <div id="phaseLabel" class="phaseLabel">Work</div>
+      <div class="timerDisplay" id="timerDisplay">25:00</div>
+      <div class="button-group">
+        <button id="startButton">▶</button>
+        <button id="pauseButton">⏸</button>
+        <button id="resetButton">⟳</button>
+      </div>
+    </div>  
+    <!-- Popup panel (initially hidden) -->
+    <div id="settings">
+      <label for="workInput">Work (min):</label>
+      <input id="workInput" type="number" min="1" />
+      <label for="breakInput">Break (min):</label>
+      <input id="breakInput" type="number" min="1" />
+      <button id="applySettings">Apply</button>
+    </div>
+  </div>
+
+  <main>
+  </main>
+  <script src="app.js"></script>
+</body>
+
+</html>
